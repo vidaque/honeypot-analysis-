@@ -1,0 +1,21 @@
+# Ignore Cowrie honeypot environment
+cowrie/
+*.mmdb
+*.tar.gz
+*.log
+*.pid
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore log data outputs
+logs/*.csv
+logs/*.json
+
+# Ignore system junk
+.DS_Store
